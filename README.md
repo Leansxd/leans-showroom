@@ -48,3 +48,7 @@ Tailwind CSS ve vanilla JavaScript ile yapılmış, satılık web site şablonla
 
 ## Lisans
 Kişisel ve ticari projelerde kullanılabilir. Satış/yeniden dağıtım için size ait mağaza linklerini kullanmayı unutmayın.
+
+<img src="https://raw.githubusercontent.com/Leansxd/leans-showroom/refs/heads/main/assets/img1.png?token=GHSAT0AAAAAADNADW6IOQUK6QVBNFDOYLUU2HMEP5A" alt="Site Önizleme">
+<img src="https://raw.githubusercontent.com/Leansxd/leans-showroom/refs/heads/main/assets/img2.png?token=GHSAT0AAAAAADNADW6ISIZQCKJ5OGYJPJS62HMEP4A" alt="Site Önizleme">
+
