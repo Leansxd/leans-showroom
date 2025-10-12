@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="tr" class="h-full">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Leans | Web, Discord Botları, API'ler</title>
+    <meta name="description" content="Leans - Home" />
+    <link rel="icon" type="image/png" href="assets/icon.png">
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 300: '#93c5fd', 400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8', 800: '#1e40af', 900: '#1e3a8a'
+              }
+            },
+            boxShadow: {
+              glow: '0 1px 2px rgba(0,0,0,.08)'
+            }
+          }
+        }
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+   <body class="h-full bg-gray-50 text-gray-800 antialiased dark:bg-gray-950 dark:text-gray-100 ">
+    <div class="min-h-screen flex flex-col ">
+      <!-- Header -->
+      <header class="sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-transparent bg-transparent border-b-0">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="flex items-center gap-4 py-4">
+            <div class="flex items-center gap-3">
+              <div class="h-10 w-10 flex items-center justify-center">
+  <img src="assets/leanslogo.png" alt="Logo" class="h-10 w-10 object-contain" />
+</div>
+
+              <div>
+                <h1 class="text-xl font-extrabold tracking-tight">Leans</h1>
+                <p class="text-xs text-gray-500 dark:text-gray-400">Web • Bots • Other</p>
+              </div>
+            </div>
+
+            <div class="ml-auto flex items-center gap-2">
+              <button id="themeToggle" class="inline-flex items-center gap-2 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 px-3 py-2 text-sm font-medium hover:shadow focus:outline-none focus:ring-2 focus:ring-brand-500/50">
+                <span class="i-theme-sun hidden dark:inline">🌙</span>
+                <span class="i-theme-moon inline dark:hidden">☀️</span>
+                <span> Tema</span>
+              </button>
+              <a href="#" class="rounded-lg text-white px-3 py-2 text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-brand-500/50" style="background-image: linear-gradient(90deg, #d946ef, #22d3ee)">İletişim</a>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Floating Centered Navbar (match home) -->
+      <div class="fixed top-4 left-1/2 -translate-x-1/2 z-30">
+        <nav class="flex items-center gap-4 rounded-full border border-gray-200 dark:border-gray-800 bg-white/90 dark:bg-gray-900/80 backdrop-blur px-2 py-1.5 shadow-glow">
+          <a href="index.html#home" class="px-3 py-1.5 rounded-full text-sm text-gray-600 dark:text-gray-300 hover:text-brand-600">Anasayfa</a>
+          <a href="index.html#features" class="px-3 py-1.5 rounded-full text-sm text-gray-600 dark:text-gray-300 hover:text-brand-600">Özellikler</a>
+          <a href="index.html#faqs" class="px-3 py-1.5 rounded-full text-sm text-gray-600 dark:text-gray-300 hover:text-brand-600">Bilgi</a>
+          <a href="shop.html" class="px-3 py-1.5 rounded-full text-sm font-medium bg-gradient-to-r from-blue-600/10 to-blue-500/10 text-blue-600 dark:text-blue-300 border border-blue-500/30">Mağaza</a>
+        </nav>
+      </div>
+
+      <!-- Hero / Intro (Concise & punchy, image-free) -->
+      <section id="home" class="relative overflow-hidden scroll-mt-24">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-gray-200/60 dark:to-gray-950/80"></div>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div class="relative py-20 sm:py-28">
+            <div class="max-w-3xl">
+              <span class="inline-flex items-center gap-2 rounded-full bg-white/70 dark:bg-gray-900/60 border border-gray-200 dark:border-gray-800 px-3 py-1 text-xs">
+                🚀 Web Dev
+              </span>
+              <h2 class="mt-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight">
+                Modern Web Siteleri, Discord Botları ve API Çözümleri
+              </h2>
+              <p class="mt-5 text-base sm:text-lg text-gray-600 dark:text-gray-300">
+                Müşterileriniz için performanslı, güvenilir ve ölçeklenebilir ürünler. Tailwind, Node.js ve modern JS ekosistemi ile uçtan uca.
+              </p>
+              <div class="mt-8 flex flex-wrap gap-3">
+                <a href="shop.html" class="btn-primary">Alışverişe Başla</a>
+                <a href="#features" class="btn-secondary">Özellikleri Gör</a>
+              </div>
+            </div>
+
+            <!-- Stats -->
+            <div class="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 shadow-glow">
+                <div class="icon-badge h-10 w-10">🛠️</div>
+                <div class="mt-2 text-2xl font-extrabold">3+ Yıl</div>
+                <div class="text-sm text-gray-500">Deneyim</div>
+              </div>
+              <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 shadow-glow">
+                <div class="icon-badge h-10 w-10">🌐</div>
+                <div class="mt-2 text-2xl font-extrabold">50+ Proje</div>
+                <div class="text-sm text-gray-500">Teslim Edildi</div>
+              </div>
+              <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 shadow-glow">
+                <div class="icon-badge h-10 w-10">⚡</div>
+                <div class="mt-2 text-2xl font-extrabold">Hızlı teslimat</div>
+                <div class="text-sm text-gray-500">Kurulumlar aynı gün tamamlanır</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section id="features" class="scroll-mt-24">         
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">           
+    <div class="text-center">             
+      <h2 class="text-2xl sm:text-3xl font-extrabold">Projeler için Öne Çıkan Özellikler</h2>             
+      <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">Web geliştirme, mobil uygulamalar ve özel yazılımlar için modern, güvenli ve ölçeklenebilir çözümler.</p>           
+    </div>           
+    <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">             
+      <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">               
+        <div class="icon-badge h-10 w-10">💻</div>               
+        <h3 class="mt-2 font-semibold">Web Geliştirme</h3>               
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">Modern ve responsive tasarımlar, hızlı ve optimize edilmiş siteler.</p>             
+      </div>             
+      <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">               
+        <div class="icon-badge h-10 w-10">📱</div>               
+        <h3 class="mt-2 font-semibold">Mobil Uygulamalar</h3>               
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">Android ve iOS için kullanıcı dostu, performanslı uygulamalar.</p>             
+      </div>             
+      <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">               
+        <div class="icon-badge h-10 w-10">⚙️</div>               
+        <h3 class="mt-2 font-semibold">Özel Yazılımlar</h3>               
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">İhtiyaca özel çözümler, otomasyon sistemleri ve entegrasyonlar.</p>             
+      </div>             
+      <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">               
+        <div class="icon-badge h-10 w-10">🎨</div>               
+        <h3 class="mt-2 font-semibold">Tasarım & UI/UX</h3>               
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">Kullanıcı odaklı arayüzler, modern ve estetik tasarım anlayışı.</p>             
+      </div>             
+      <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">               
+        <div class="icon-badge h-10 w-10">🔒</div>               
+        <h3 class="mt-2 font-semibold">Güvenlik</h3>               
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">Veri koruma, güvenli mimari ve güçlü altyapı çözümleri.</p>             
+      </div>             
+      <div class="card card-hover rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">               
+        <div class="icon-badge h-10 w-10">🚀</div>               
+        <h3 class="mt-2 font-semibold">Performans</h3>               
+        <p class="mt-1 text-sm text-gray-600 dark:text-gray-300">Yüksek hızlı sistemler, ölçeklenebilir altyapı ve sorunsuz deneyim.</p>             
+      </div>           
+    </div>         
+  </div>       
+</section>
+
+<section id="promo" class="scroll-mt-24">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
+    <div class="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 md:p-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+        <!-- Left: Promo copy (no left CTAs) -->
+        <div>
+          <h2 class="text-3xl md:text-4xl font-extrabold leading-tight">Markana Yakışan, Üretime Hazır Çözümler</h2>
+          <p class="mt-3 text-base text-gray-600 dark:text-gray-300">Web, bot ve API’lerde hızlı yayına alma, temiz kod ve uzun ömürlü mimari.</p>
+
+          <!-- Benefit badges -->
+          <div class="mt-5 flex flex-wrap gap-2 text-xs">
+            <span class="inline-flex items-center rounded-full border border-gray-200 dark:border-gray-800 px-3 py-1 bg-white dark:bg-gray-900">⚡ Aynı Gün Teslim</span>
+            <span class="inline-flex items-center rounded-full border border-gray-200 dark:border-gray-800 px-3 py-1 bg-white dark:bg-gray-900">🧩 Modüler Yapı</span>
+            <span class="inline-flex items-center rounded-full border border-gray-200 dark:border-gray-800 px-3 py-1 bg-white dark:bg-gray-900">🔒 Güvenli Mimari</span>
+            <span class="inline-flex items-center rounded-full border border-gray-200 dark:border-gray-800 px-3 py-1 bg-white dark:bg-gray-900">📈 SEO & Performans</span>
+          </div>
+
+          <!-- Info strip -->
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs text-gray-600 dark:text-gray-300">
+            <div class="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-3">📞 Hızlı iletişim</div>
+            <div class="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-3">🧾 Şeffaf fiyatlandırma</div>
+            <div class="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-3">🛠️ Kurulum + destek</div>
+          </div>
+        </div>
+
+        <!-- Right: Steps / How it works with bottom CTA bar -->
+        <div>
+          <div class="rounded-xl border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-950 p-6">
+            <h3 class="text-lg font-semibold">Nasıl Çalışır?</h3>
+            <ol class="mt-4 space-y-3 text-sm text-gray-700 dark:text-gray-300">
+              <li class="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-3">
+                <div class="font-medium">1) Seç</div>
+                <div class="text-xs text-gray-500">Mağazadan şablonunu ya da paketi belirle.</div>
+              </li>
+              <li class="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-3">
+                <div class="font-medium">2) Özelleştir</div>
+                <div class="text-xs text-gray-500">Gerekli ayarları ve entegrasyonları ekleyelim.</div>
+              </li>
+              <li class="rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-3">
+                <div class="font-medium">3) Yayına Al</div>
+                <div class="text-xs text-gray-500">Aynı gün kurulum ve teslim ile hemen kullan.</div>
+              </li>
+            </ol>
+            <div class="mt-6 rounded-lg border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 flex flex-wrap items-center justify-between gap-3">
+              <div class="text-sm text-gray-600 dark:text-gray-300">Hazır mısın? <span class="font-semibold">Şimdi başlamak</span> sadece birkaç adım.</div>
+              <a href="shop.html" class="btn-primary">Şablonları Gör</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- FAQs (original simple version) -->
+      <section id="faqs" class="scroll-mt-24">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-10">
+          <h2 class="text-xl font-extrabold">FAQs</h2>
+          <div class="mt-4 grid gap-3">
+            <details class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+              <summary class="cursor-pointer font-medium">Nasıl satın alırım?</summary>
+              <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">Shop sayfasından ürünü seçip “Satın Al” bağlantısını takip edin.</p>
+            </details>
+            <details class="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+              <summary class="cursor-pointer font-medium">Kurulum desteği veriyor musunuz?</summary>
+              <p class="mt-2 text-sm text-gray-600 dark:text-gray-300">Evet, istek üzerine kurulum ve özelleştirme hizmeti sağlanır.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-auto border-t border-gray-200/80 dark:border-gray-800">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6 text-sm text-gray-500 dark:text-gray-400 flex items-center justify-between">
+          <span>© <span id="year"></span> Leansshop</span>
+          <div class="flex items-center gap-3">
+            <a href="#" class="hover:text-brand-600">Mail</a>
+            <a href="#" class="hover:text-brand-600">Discord</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Item Modal -->
+    <div id="itemModal" class="invisible pointer-events-none fixed inset-0 z-50 flex items-center justify-center p-4">
+      <div class="absolute inset-0 bg-black/50 transition-opacity"></div>
+      <div class="relative w-full max-w-2xl scale-95 opacity-0 transition-all">
+        <div class="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 shadow-2xl overflow-hidden">
+          <div class="flex items-start justify-between p-4 border-b border-gray-200 dark:border-gray-800">
+            <h3 id="modalTitle" class="text-lg font-semibold">Ürün Detayı</h3>
+            <button id="modalClose" class="rounded-lg p-2 hover:bg-gray-100 dark:hover:bg-gray-800">✖</button>
+          </div>
+          <div class="p-4">
+            <img id="modalImage" src="" alt="Item" class="mb-4 w-full h-56 object-cover rounded-xl border border-gray-200 dark:border-gray-800" />
+            <p id="modalDesc" class="text-sm text-gray-600 dark:text-gray-300"></p>
+            <div id="modalBadges" class="mt-3 flex flex-wrap gap-2"></div>
+          </div>
+          <div class="p-4 border-t border-gray-200 dark:border-gray-800 flex flex-wrap gap-3">
+            <a id="modalDemo" href="#" target="_blank" class="btn-secondary">Canlı Demo</a>
+            <a id="modalRepo" href="#" target="_blank" class="btn-secondary">GitHub</a>
+            <a id="modalBuy" href="#" target="_blank" class="btn-primary ml-auto">Satın Al</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="assets/js/app.js"></script>
+  </body>
+</html>

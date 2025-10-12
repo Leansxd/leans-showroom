@@ -1,0 +1,189 @@
+[
+
+
+  {
+    "id": "w-portfolio-1",
+    "category": "web",
+    "title": "Basic Portfolio",
+    "description": "Kişisel bilgilerinizi tanıtmanın en iyi yolu. Size özel olarak güncelleniyor",
+    "price": 10,
+    "priceOld": 23,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["CSS","TAİLWİND","HTML","CSS"],
+    "image": "https://designtocodes.com/wp-content/uploads/2023/11/NextGenApps-Pro-Free-Bootstrap-5-Portfolio-Website-Template.jpg",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+  {
+    "id": "w-portfolio-2",
+    "category": "web",
+    "title": "Basic Portfolio",
+    "description": "Kişisel bilgilerinizi tanıtmanın en iyi yolu. Size özel olarak güncelleniyor",
+    "price": 8,
+    "priceOld": 13,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["CSS","TAİLWİND","HTML","CSS"],
+    "image": "https://miro.medium.com/0*hY4-qtJ45Os3uGpf.png",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+
+    {
+    "id": "w-figma-pack",
+    "category": "pack",
+    "title": "Figma Pack",
+    "description": "Figma tabanlı UI/UX tasarım seti: Keyboard secenekleri ve emojiler.",
+    "price": 30,
+    "priceOld": 50,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "OPENSOURCE",
+    "platforms": ["NODE"],
+    "image": "https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/ee3f65698a74313e76d0dfda7a93c59164aba37b",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+  
+      {
+    "id": "w-discord-mesai-bot",
+    "category": "discord",
+    "title": "Mesai Bot",
+    "description": "Discord ekibiniz için gelişmiş mesai takip botu.",
+    "price": 10,
+    "priceOld": 23,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["NODE","DİSCORD.JS"],
+    "image": "https://leans.com.tr/shop/assets/data-img/mesai.jpg",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+
+        {
+    "id": "w-discord-guard-bot  ",
+    "category": "discord",
+    "title": "Guard Bot",
+    "description": "Discord sunucunuz icin gelişmiş guard.",
+    "price": 12,
+    "priceOld": 26,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["NODE","DİSCORD.JS"],
+    "image": "https://leans.com.tr/shop/assets/data-img/guardjpg.jpg",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+
+        {
+    "id": "w-fivem-bot  ",
+    "category": "discord",
+    "title": "Fivem Bot",
+    "description": "Discord sunucunuz icin gelişmiş guard.",
+    "price": 12,
+    "priceOld": 26,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["NODE","DİSCORD.JS"],
+    "image": "https://leans.com.tr/shop/assets/data-img/fivem.jpg",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+   {
+    "id": "w-moderasyon-bot  ",
+    "category": "discord",
+    "title": "Moderasyon Bot",
+    "description": "Discord sunucunuz icin gelişmiş guard.",
+    "price": 12,
+    "priceOld": 26,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["NODE","DİSCORD.JS"],
+    "image": "https://leans.com.tr/shop/assets/data-img/moderasyon.jpg",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+     {
+    "id": "w-register-bot  ",
+    "category": "discord",
+    "title": "Kayıt Bot",
+    "description": "Discord sunucunuz icin gelişmiş guard.",
+    "price": 12,
+    "priceOld": 26,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["NODE","DİSCORD.JS"],
+    "image": "https://leans.com.tr/shop/assets/data-img/register.jpg",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+       {
+    "id": "w-ticket-bot  ",
+    "category": "discord",
+    "title": "Ticket Bot",
+    "description": "Discord sunucunuz icin gelişmiş guard.",
+    "price": 12,
+    "priceOld": 26,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["NODE","DİSCORD.JS"],
+    "image": "https://leans.com.tr/shop/assets/data-img/ticket.jpg",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  },
+
+    {
+    "id": "w-ai-api",
+    "category": "other",
+    "title": "OpenAI API",
+    "description": "Chatgpt-4, DALL-E, Whisper destekleyen basic ai api",
+    "price": 10,
+    "priceOld": 23,
+    "featured": false,
+    "tags": ["node", "api", "starter"],
+    "license": "UPDATED",
+    "platforms": ["NODE","DİSCORD.JS"],
+    "image": "https://miro.medium.com/v2/resize:fit:1200/1*IKZMyV-yce4Mbx8nPwysuw.jpeg",
+    "links": {
+      "demoUrl": "https://example.com/api-docs",
+      "repoUrl": "https://github.com/your/api-starter",
+      "buyUrl": "https://your-store.com/api-starter"
+    }
+  }
+]
