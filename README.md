@@ -1,6 +1,6 @@
 # Showroom (Web • Discord • Other)
 
-Tailwind CSS ve vanilla JavaScript ile yapılmış, satılık web site şablonları, Discord botları ve diğer ürünlerinizi sergileyebileceğiniz modern bir showroom.
+Tailwind CSS ve vanilla JavaScript ile yapılmış, web site şablonları, Discord botları ve diğer ürünlerinizi sergileyebileceğiniz modern bir showroom.
 
 ## Özellikler
 - Sekmeli kategori filtreleri: Web, Discord, Other
